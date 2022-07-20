@@ -1,0 +1,6 @@
+def same_values(lst1, lst2):
+  new_list = []
+  for index in range(len(lst1)):
+    if lst1[index] == lst2[index]:
+      new_list.append(index)
+  return new_list
